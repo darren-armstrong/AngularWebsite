@@ -1,10 +1,12 @@
 import { Component } from '@angular/core';
+import { HeaderComponent } from './header/app.header.component';
+import { NavigationComponent } from './navigation/app.nav.component';
 
 @Component({
   selector: 'app-root',
-  templateUrl: './app.component.html',
+  templateUrl: './main.html',
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Application Set up Complete!';
+
 }
